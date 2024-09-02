@@ -1,24 +1,5 @@
 
-# Graph Algorithms and Operations
-
-This repository contains an implementation of various graph algorithms and operations using C++. The core components include classes for representing graphs and performing various algorithms on them. The repository is designed with modularity in mind, allowing easy extension and testing of additional graph-related functionalities.
-
-## Table of Contents
-- [Graph Class](#graph-class)
-  - [Basic Operations](#basic-operations)
-  - [Arithmetic Operators](#arithmetic-operators)
-  - [Comparison Operators](#comparison-operators)
-  - [Increment and Decrement Operators](#increment-and-decrement-operators)
-  - [Scalar and Graph Multiplication](#scalar-and-graph-multiplication)
-  - [Output Operator](#output-operator)
-- [Algorithms Class](#algorithms-class)
-  - [Graph Connectivity](#graph-connectivity)
-  - [Shortest Path](#shortest-path)
-  - [Cycle Detection](#cycle-detection)
-  - [Bipartite Check](#bipartite-check)
-  - [Negative Cycle Detection](#negative-cycle-detection)
-- [Testing](#testing)
-- [Demo](#demo)
+# Graph Algorithms and Operations - Assignment 1 Summer Ariel
 
 ## Graph Class
 
@@ -114,21 +95,13 @@ The `Algorithms` class provides various static methods to perform common graph a
 
 - **`negativeCycle(const Graph& g)`**: Detects the presence of a negative cycle in the graph using the Bellman-Ford algorithm.
 
-## Testing
-
-The project includes several test cases implemented using the [doctest](https://github.com/doctest/doctest) framework. The tests cover arithmetic and comparison operators, unary operations, increment/decrement operations, scalar and graph multiplication, and edge cases.
-
-## Demo
-
-The `Demo.cpp` file provides example usage of the `Graph` and `Algorithms` classes, showcasing their functionality with various graphs.
-
 ## Compilation and Execution
 
 To compile the project, use the provided `Makefile`. The following commands can be used:
 
 ```bash
-make all
-./Demo
+make
+./demo
 ```
 
 This will compile and run the demo, displaying the output of various graph operations and algorithms.
